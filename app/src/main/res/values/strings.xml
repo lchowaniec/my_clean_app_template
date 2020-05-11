@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">app_template</string>
+    <string name="home">Home</string>
+    <string name="create">Feed</string>
+    <string name="account">Profile</string>
+
+    // Auth
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="email_field">email</string>
+    <string name="field_username">username</string>
+    <string name="field_password">password</string>
+    <string name="field_register">Register</string>
+    <string name="field_login">Login</string>
+    <string name="reset_password">Reset password</string>
 </resources>
