@@ -1,1 +1,1 @@
-# my_clean_app_template
+# My clean app template
