@@ -1,0 +1,1 @@
+# My clean app template
