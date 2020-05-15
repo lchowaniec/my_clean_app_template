@@ -1,3 +1,4 @@
+# my_clean_app_template
 <p>What i used here:&nbsp;</p>
 <ul>
 <li>Navigation Component</li>
