@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_second"
+    app:startDestination="@id/secondFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.lchowaniec.app_template.ui.Second.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_secondInsideFragment"
+            app:destination="@id/secondInsideFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondInsideFragment"
+        android:name="com.lchowaniec.app_template.ui.Second.SecondInsideFragment"
+        android:label="fragment_second_inside"
+        tools:layout="@layout/fragment_second_inside" >
+        <action
+            android:id="@+id/action_secondInsideFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+</navigation>

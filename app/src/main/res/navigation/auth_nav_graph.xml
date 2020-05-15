@@ -46,5 +46,16 @@
         android:id="@+id/passwordFragment"
         android:name="com.lchowaniec.app_template.ui.auth.PasswordFragment"
         android:label="fragment_password"
-        tools:layout="@layout/fragment_password" />
+        tools:layout="@layout/fragment_password" >
+        <action
+            android:id="@+id/action_passwordFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popEnterAnim="@anim/left_in"
+            app:popExitAnim="@anim/right_out"
+            app:enterAnim="@anim/right_in"
+            app:exitAnim="@anim/left_out"
+            app:popUpTo="@id/auth_nav_graph"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
 </navigation>
